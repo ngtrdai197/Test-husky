@@ -10,6 +10,6 @@ describe('AppController', () => {
     }).compile();
   });
   it('Test fail', () => {
-    expect(1).toEqual(3);
+    expect(1).toEqual(2);
   });
 });
